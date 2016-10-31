@@ -1,0 +1,60 @@
+Primero se pone git.
+Luego se pone pwd.
+Crear una carpeta con el proyecto en una ubicación :
+Ejm: ProyectosProgramacion sin comillas ni tilde puede ser en el disco D o C
+pwd = ve en que carpeta esta el proyecto
+cd c:ProyectoProgrmacion = para buscar la carpeta del proyecto desde consola
+y despues pwd poner despues.
+ls = listar los archivos.
+cd = te lleva a direcciones.
+pwd = donde estamos en ese momento.
+
+Luego copiamos las dos lineas donde dice "Git global setup".
+Luego copiamos solo la primer linea de "Create a new repository". git clone https://git.taw.utpl.edu.ec/fsvillavicencio1/fp2016-game-homero.git
+Luego ponemos ls y enter y sale el nombre del proyecto.
+Luego ponemos cd y el nombre del proyecto: cd fp2016-game-homero
+Despues ponemos "pwd" y sale la ubicacion del proyecto.
+touch = comando que permite crear un archivo.
+Despues ponemos "touch README.md" 
+Luego poner "ls" y se crea una carpeta con el nombre del proyecto.
+Luego ponemos "git add README.md" que sirve para agregar archivos nuevos al git
+Luego ponemos (git commit -m "add README") decirle al archivo que dentro del repositorio local lo versiona.
+commit usar lo siguiente (git commit-a-m "Aqui va un comentario")
+Luego ponemos (git push -u origin master) y nos saldra que pongamos la clave 
+Lugo ponemos (ls) para ver las carpetas agregadas.
+Luego ponemos (git commit -a -m "Creando primer archivo") == entre comillas va cualquier comentario.
+Luego hacemos (git push) y listo ya esta subido al git. 
+Compañero:
+Actualizar con el comando(git pull)
+Para el otro mijin:
+Llama y Abre la carpeta asi(cd c:ProyectosProgramacion)
+Luego pone "git clone" y copia y pega el http de la pagina git.
+
+***************************************
+Ejemplo:
+Creamos un archivo .py en la carpeta fp2016-game-homero
+Luego para subir ponemos: (git add ejemplo.py) =ejemplo es el nombre del archivo=
+Luego ponemosgit bull para que el compañero se le baje el archivo subido al pc.
+Luego ponemos (git status) sirve para modificar los archivos ya subidos.
+Luego ponemos (git commit -a -m "Modificando el nuevo archivo")
+Luego ponemos el (git push).
+
+
+
+Para cambiar ===
+Solo ponemos git commit
+y git push para guardar y subir los cambios y para descargar git pull 
+Para borrar
+ponemos 
+git status
+git pull
+git rm ejemplo2.txt
+git status
+git commit -a -m "Borrar archivo"
+git push
+
+Para entrar otra vez:
+primero ponemos git
+luego nombre de carpeta
+luego fp-game-homero
+y luego listo!!!!!	
